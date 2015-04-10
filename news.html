@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="css/font.css" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<script type="text/javascript">
+		window.onload=function(){
+			var  oSub1=document.getElementById('sub1'),
+				oSub2=document.getElementById('sub2'),
+				oWord=document.getElementById('word'),
+				num=12;
+				
+			oAdd.onclick=function(){
+				num++;
+				oGre.style.fontSize= num+'px';
+				if(num>20){
+				num--;
+				}
+			}
+			
+			oSub.onclick=function(){
+				num--;
+				oGre.style.fontSize= num+'px';
+				if(num<12){
+				num++;
+				}
+			}
+		}
+	</script>
+</head>
+<body>
+	<div id="k1">
+		<div class="time">
+			<span>2014-11-14 08:33:00</span><q>|</q>
+			<span>来源：海外网</span> <q>|</q>
+			字号：
+			<div id="sub1">+</div>
+			<div id="sub2">-</div>
+		</div>
+		<p id="word">摘要：6:30开始在中南海瀛台散步。随后到瀛台涵元殿小范围会见，然后是香扆殿小范围晚宴，最后是迎薰亭茶叙。原定90分钟的宴会持续了近两个小时，原定30分钟的茶叙，持续了1个小时。总之，夜里11点多他俩才挥手告别。</p>
+	</div>
+	
+</body>
+</html>
